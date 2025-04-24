@@ -1,1 +1,101 @@
 
+body {
+    font-family: Arial, Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(242, 232, 232);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #01192f;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+  } 
+ .logoportfolio {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+  } 
+  .btnHire {
+    background-color: #0cbc81;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  fieldset{
+    border:none
+  }
+   .home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+    background-image: url('backgroundImage.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .HomeImage img {
+    max-width: 400px;
+    border-radius: 30px;
+    background-color: transparent;
+  }
+  .hometext {
+    max-width: 600px;
+  }
+  .hometext h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .hometext h2 {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  .hometext p {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+  }  
+  .buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+  }
+
+  .btnHire2 {
+    background-color: #09ba7f;
+    padding: 12px 24px;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .btnportfolio {
+    border: 2px solid white;
+    padding: 12px 24px;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
