@@ -82,7 +82,7 @@ ul {
   }
 
   .btnHire2 {
-    background-color: #09ba7f;
+    background-color: #038157;
     padding: 12px 24px;
     border-radius: 25px;
     color: white;
@@ -130,3 +130,94 @@ ul {
         display:flex;
         align-items:center;
     }
+    .bio-social{
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+    .bio-social a {
+      margin-right: 10px;
+      text-decoration: none;
+      color: #07724e;
+      font-weight: 500;
+    }
+.btncv{
+  background-color: rgb(5, 176, 5);
+  border-radius: 25px;
+  color:white;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Services Section */
+.services {
+  background-color: #f8f9fa;
+  padding: 80px 60px;
+  text-align: center;
+  align-items: center;
+}
+#h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+  align-items:center;
+  text-align: center;
+}
+
+.service-cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  width: 280px;
+  text-align: center;
+}
+
+.MoreLink{
+  display: inline-block;
+  margin-top: 30px;
+  color: #10b981;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+}
+
+
+/* Default styles for mobile-first approach */
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+/* Tablet screens */
+@media (min-width: 768px) {
+  .container {
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  body {
+      font-size: 18px;
+  }
+}
+
+/* Desktop screens */
+@media (min-width: 1024px) {
+  .container {
+      padding: 40px;
+  }
+
+  body {
+      font-size: 20px;
+  }
+}
