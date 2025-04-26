@@ -31,14 +31,21 @@ ul {
     text-decoration: none;
     font-weight: 300;
   } 
-  .btnHire {
-    background-color: #0cbc81;
-    padding: 10px 20px;
-    border-radius: 25px;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
+  .btnHire, .btnHire2 {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+}
+
+.btnHire:hover, .btnHire2:hover {
+  background-color: #45a049; /* Slightly darker green on hover */
+}
+
   
   fieldset{
     border:none
@@ -80,15 +87,6 @@ ul {
     gap: 20px;
   }
 
-  .btnHire2 {
-    background-color: #033726;
-    padding: 12px 24px;
-    border-radius: 25px;
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-  }
-  
   .btnportfolio {
     border: 2px solid white;
     padding: 12px 24px;
@@ -146,7 +144,7 @@ ul {
     }
     .services {
       display: flex;
-      justify-content: space-around;
+      justify-content: straight line;
       Grid: wrap;
       gap: 20px;
     }
