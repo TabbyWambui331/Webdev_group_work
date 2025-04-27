@@ -86,7 +86,14 @@ ul {
     display: flex;
     gap: 20px;
   }
-
+  btnHire2 {
+     background-color: #038157;
+     padding: 12px 24px;
+     border-radius: 25px;
+     color: white;
+     text-decoration: none;
+     font-weight: 600;
+   }
   .btnportfolio {
     border: 2px solid white;
     padding: 12px 24px;
